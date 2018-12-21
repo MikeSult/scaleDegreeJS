@@ -18,8 +18,13 @@ var scaleDegreeFormula = '2 4 6 4 5 4 3 2 1 2 3 5 8 7 5 3';
 
 this is combined with a key and durations to create an complex array suitable for use with Tone.js
 
-var root = 'A4';
+var root = 'A3';
 
 var rhythmArray = ['4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n'];
 
 var notesAndDurations =  makeMelody(scaleDegreeFormula, root, rhythmArray);
+
+// returns:
+// notesAndDuration[0] = ['B3','D4','F#4','E4','D4','C#4','B3','A3','B3','C#4','E4','A4','G#4','F#4','E4','C#4']
+
+// notesAndDuration[1] = ['4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n'];
