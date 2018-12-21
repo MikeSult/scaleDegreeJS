@@ -25,6 +25,7 @@ var rhythmArray = ['4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','
 var notesAndDurations =  makeMelody(scaleDegreeFormula, root, rhythmArray);
 
 // returns:
+
 // notesAndDuration[0] = ['B3','D4','F#4','E4','D4','C#4','B3','A3','B3','C#4','E4','A4','G#4','F#4','E4','C#4']
 
 // notesAndDuration[1] = ['4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n','4n'];
