@@ -16,7 +16,7 @@ You can write a pattern for a bass line:
 
 var scaleDegreeFormula = '2 4 6 4 5 4 3 2 1 2 3 5 8 7 5 3';
 
-this is combined with a key and durations to create an complex array suitable for use with Tone.js
+this is combined with a key and durations to create an array of arrays suitable for use with Tone.js
 
 var root = 'A3';
 
