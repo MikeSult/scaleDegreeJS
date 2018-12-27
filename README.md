@@ -30,4 +30,4 @@ var notesAndDurations =  makeMelody(scaleDegreeFormula, root, rhythmArray);
 
 // notesAndDuration[1] = ['4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n']
 
-more info in the [docs]{https://mikesult.github.io/scaleDegreeJS/docs/index.html}
+more info in the [docs](https://mikesult.github.io/scaleDegreeJS/docs/index.html)
