@@ -1320,7 +1320,7 @@ these can be used <span class="hljs-keyword">with</span> Tone.js</pre>
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> harm_minor = <span class="hljs-string">'1 2 b3 4 5 b6 7 8'</span>;
 <span class="hljs-keyword">var</span> my_root = <span class="hljs-string">"G4"</span>;
-<span class="hljs-keyword">var</span> g_minor = makeNoteArray(harm_minor, my_root);
+<span class="hljs-keyword">var</span> g_minor = scaleDegree.makeNoteArray(harm_minor, my_root);
 <span class="hljs-comment">// g_minor = ["G4","A4","Bb4","C5","D5","Eb5","F#5","G5"]</span></pre>
     
   
@@ -1406,7 +1406,7 @@ these can be used <span class="hljs-keyword">with</span> Tone.js</pre>
       
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> my_triad = <span class="hljs-string">'1 b3 5'</span>;
 <span class="hljs-keyword">var</span> my_root = <span class="hljs-string">"C#4"</span>;
-<span class="hljs-keyword">var</span> my_chord = makeChordArray(harm_minor, my_root);
+<span class="hljs-keyword">var</span> my_chord = scaleDegree.makeChordArray(my_triad, my_root);
 <span class="hljs-comment">// my_chord = ["C#4","E4","G#4"]</span></pre>
     
   
@@ -1594,7 +1594,7 @@ these can be used <span class="hljs-keyword">with</span> Tone.js</pre>
       <pre class='p1 overflow-auto round fill-light'><span class="hljs-keyword">var</span> my_scale_degrees = <span class="hljs-string">"1 5 6 5"</span>;
 <span class="hljs-keyword">var</span> my_root = <span class="hljs-string">"C4"</span>;
 <span class="hljs-keyword">var</span> my_durations = [<span class="hljs-string">"4n"</span>,<span class="hljs-string">"8n"</span>,<span class="hljs-string">"4n"</span>,<span class="hljs-string">"8n"</span>];
-<span class="hljs-keyword">var</span> my_melody(my_scale_degrees, my_root, my_durations);
+<span class="hljs-keyword">var</span> my_melody = scaleDegree.makeMelody(my_scale_degrees, my_root, my_durations);
 <span class="hljs-comment">// my_melody = [{{note: {value: "C4"}}, {duration: {value: "4n}}, {velocity: {value: 0.7}}},</span>
 <span class="hljs-comment">//               {{note: {value: "G4"}}, {duration: {value: "8n}}, {velocity: {value: 0.7}}},</span>
 <span class="hljs-comment">//                {{note: {value: "A4"}}, {duration: {value: "4n}}, {velocity: {value: 0.7}}},</span>

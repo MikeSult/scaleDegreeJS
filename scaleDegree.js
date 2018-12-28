@@ -4,7 +4,7 @@
 
 // import {mergeDurationVelocityAndPitch} from '../PracticeRoom/Rhythm.js';
 // to create documentation:
-// %: cd ~/Documents/HTML/scaleDegreeJS
+// %: cd ~/Documents/Github/scaleDegreeJS
 // %: documentation build scaleDegree.js -f html -o docs
 
 
@@ -25,7 +25,6 @@
  * var myBassline = scaleDegree.makeII_V_I_Major_WalkBass("A4")
  * these can be used with Tone.js 
  * 
-
  * @module scaleDegree.js
  * @returns {object} scaleDegree object
  */
@@ -958,7 +957,7 @@ function makeFreqArray(scaleDegreeFormula, root)  {
  * @example
  * var harm_minor = '1 2 b3 4 5 b6 7 8';
  * var my_root = "G4";
- * var g_minor = makeNoteArray(harm_minor, my_root);
+ * var g_minor = scaleDegree.makeNoteArray(harm_minor, my_root);
  * // g_minor = ["G4","A4","Bb4","C5","D5","Eb5","F#5","G5"]
  */
 function makeNoteArray(scaleDegreeFormula, root)  {
@@ -995,7 +994,7 @@ function makeNoteArray(scaleDegreeFormula, root)  {
  * @example
  * var my_triad = '1 b3 5';
  * var my_root = "C#4";
- * var my_chord = makeChordArray(harm_minor, my_root);
+ * var my_chord = scaleDegree.makeChordArray(my_triad, my_root);
  * // my_chord = ["C#4","E4","G#4"]
  */
 function makeChordArray(scaleDegreeChordArray, root)  {
@@ -1080,7 +1079,7 @@ function makeChordFreqArray(scaleDegreeChordArray, root)  {
  * var my_scale_degrees = "1 5 6 5";
  * var my_root = "C4";
  * var my_durations = ["4n","8n","4n","8n"];
- * var my_melody(my_scale_degrees, my_root, my_durations);
+ * var my_melody = scaleDegree.makeMelody(my_scale_degrees, my_root, my_durations);
  * // my_melody = [{{note: {value: "C4"}}, {duration: {value: "4n}}, {velocity: {value: 0.7}}},
  * //               {{note: {value: "G4"}}, {duration: {value: "8n}}, {velocity: {value: 0.7}}},
  * //                {{note: {value: "A4"}}, {duration: {value: "4n}}, {velocity: {value: 0.7}}},
