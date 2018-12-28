@@ -30,6 +30,6 @@ var notesAndDurations =  makeMelody(scaleDegreeFormula, root, rhythmArray);
 
 // notesAndDuration[1] = ['4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n', '4n']
 
-for and example see [PlayScaleDegrees.html](https://www.guitarland.com/MusicTheoryWithToneJS/PlayScaleDegrees.html)
+for an example see [PlayScaleDegrees.html](https://www.guitarland.com/MusicTheoryWithToneJS/PlayScaleDegrees.html)
 
 more info in the [docs](https://mikesult.github.io/scaleDegreeJS/docs/index.html)
